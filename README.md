@@ -2,7 +2,7 @@
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/45d72613-d8f7-4922-a78d-533f743aacf0" /> 
 </div>
 
-# Castlevania ReVamped — Nintendo Switch Port
+# Castlevania ReVamped - Nintendo Switch Port
 
 Unofficial homebrew port of **Castlevania ReVamped** (Lv.4 Games, GameMaker Studio 2 YYC) for modded Nintendo Switch.
 
