@@ -8,8 +8,6 @@ Unofficial homebrew port of **Castlevania ReVamped** (Lv.4 Games, GameMaker Stud
 
 This release includes everything you need to play on Switch: the **homebrew wrapper**, **prep tools**, and a **Switch-patched Android APK** (YYC) with correct controls, no touch overlay, and full-speed performance.
 
-See [DISCLAIMER.md](DISCLAIMER.md) before use or distribution.
-
 ## Quick start (Windows)
 
 1. Download the latest **[cvrevamped-switch-release.zip](https://github.com/bshurikan/cvrevamped_nx/releases)** from GitHub Releases.
