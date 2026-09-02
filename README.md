@@ -13,7 +13,7 @@ See [DISCLAIMER.md](DISCLAIMER.md) before use or distribution.
 ## Quick start (Windows)
 
 1. Download the latest **[cvrevamped-switch-release.zip](https://github.com/bshurikan/cvrevamped_nx/releases)** from GitHub Releases.
-2. Download **`CastlevaniaReVamped-switch.apk`** from the same release (Switch-patched YYC build).
+2. Download **[CastlevaniaReVamped-switch.apk](https://github.com/bshurikan/cvrevamped_nx/releases)** from the same release (Switch-patched YYC build).
 3. Extract the zip.
 4. Double-click **`tools/Prepare SD Card.bat`**.
 5. Select **`CastlevaniaReVamped-switch.apk`** when prompted.
