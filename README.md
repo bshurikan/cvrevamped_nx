@@ -1,5 +1,5 @@
 <div align="center">
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/5c434485-f4be-40c2-888c-
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/45d72613-d8f7-4922-a78d-533f743aacf0" /> 
 </div>
 
 # Castlevania ReVamped — Nintendo Switch Port
