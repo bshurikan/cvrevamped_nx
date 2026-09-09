@@ -104,6 +104,7 @@ sdmc:/switch/cvrevamped_nx/
 | **R / ZR** | Dash |
 | **Minus (−)** | Map |
 | **Plus (+)** | Pause |
+| **L3 + R3** | **NX Options** menu |
 
 Touch controls are disabled on Switch — physical gamepad only.
 
@@ -117,6 +118,8 @@ Touch controls are disabled on Switch — physical gamepad only.
 | `input_profile` | `1` | YYC / Input 10 (set by prep tool) |
 | `hide_touch` | `1` | Blocks Switch touchscreen from reaching the game |
 | `screen_width/height` | `-1` | Auto (720p handheld, 1080p docked) |
+
+In-game: press **L3 + R3** to open **NX Options**. Toggle FPS / coords / VSync / clocks / resolution, unstick, and warps - changes write to `config.txt`. Resolution needs an app restart.
 
 ## Performance
 
