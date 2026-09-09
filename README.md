@@ -10,13 +10,62 @@ This release includes everything you need to play on Switch: the **homebrew wrap
 
 ## Installation
 
-1. Download the latest **[cvrevamped-switch-release.zip](https://github.com/bshurikan/cvrevamped_nx/releases)** from GitHub Releases.
-2. Download **[CastlevaniaReVamped-switch.apk](https://github.com/bshurikan/cvrevamped_nx/releases)** from the same release (Switch-patched YYC build).
-3. Extract the zip.
-4. Double-click **`tools/Prepare SD Card.bat`**.
-5. Select **`CastlevaniaReVamped-switch.apk`** when prompted.
-6. Copy the generated **`sd_card/cvrevamped_nx/`** folder to your SD card as **`switch/cvrevamped_nx/`**.
-7. Launch **`cvrevamped_nx.nro`** with **full RAM** (hold **R** while opening a title, or use a forwarder).
+Download **both** release assets from [GitHub Releases](https://github.com/bshurikan/cvrevamped_nx/releases):
+
+1. **`cvrevamped-switch-release.zip`** - wrapper + config + tools  
+2. **`CastlevaniaReVamped-switch.apk`** - Switch-patched YYC build (required; do not substitute a stock Android APK)
+
+---
+
+### Method A - Automatic (Windows prep script)
+
+Best if you are on Windows and the script runs successfully.
+
+1. Extract **`cvrevamped-switch-release.zip`**.
+2. Double-click **`tools/Prepare SD Card.bat`**.
+3. Select **`CastlevaniaReVamped-switch.apk`** when prompted.
+4. Copy the generated **`sd_card/cvrevamped_nx/`** folder to your SD card as **`switch/cvrevamped_nx/`**.
+
+Command line alternative:
+
+```powershell
+.\tools\prepare_sd.ps1 -CvrApk "C:\path\CastlevaniaReVamped-switch.apk"
+```
+
+> If Method A doesn't work for you use **Method B** instead. 
+
+---
+
+### Method B - Manual (any OS)
+
+1. Extract **`cvrevamped-switch-release.zip`**. You should have a **`cvrevamped_nx/`** folder with at least:
+   - `cvrevamped_nx.nro`
+   - `config.txt`
+   - `gamecontrollerdb.txt`
+   - `sdl2.txt`
+2. Copy **`CastlevaniaReVamped-switch.apk`** into **`cvrevamped_nx/`** and rename to **`game.apk`**.
+4. Open **`game.apk`** with any zip tool (7-Zip, WinRAR, macOS Archive Utility, etc.) and extract:
+   - **`lib/arm64-v8a/libyoyo.so`** → place as **`cvrevamped_nx/libyoyo.so`**
+   - The entire **`assets/`** folder → place as **`cvrevamped_nx/assets/`**
+5. Copy **`sdl2.txt`** from the release folder into **`cvrevamped_nx/assets/sdl2.txt`** as well (overwrite if the APK already has one). This is required for Switch controls on the YYC build.
+6. Confirm **`config.txt`** has **`input_profile 1`** (shipped default).
+7. Copy the finished **`cvrevamped_nx/`** folder to your SD card as **`switch/cvrevamped_nx/`**.
+
+Final layout:
+
+```
+sdmc:/switch/cvrevamped_nx/
+├── cvrevamped_nx.nro
+├── config.txt
+├── gamecontrollerdb.txt
+├── sdl2.txt
+├── game.apk                 ← renamed Switch APK
+├── libyoyo.so               ← from APK lib/arm64-v8a/
+└── assets/                  ← from APK assets/ (+ sdl2.txt overwrite)
+    ├── game.droid
+    ├── sdl2.txt
+    └── ...
+```
 
 ## What's in the release
 
