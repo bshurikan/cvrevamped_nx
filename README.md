@@ -26,12 +26,6 @@ Best if you are on Windows and the script runs successfully.
 3. Select **`CastlevaniaReVamped-switch.apk`** when prompted.
 4. Copy the generated **`sd_card/cvrevamped_nx/`** folder to your SD card as **`switch/cvrevamped_nx/`**.
 
-Command line alternative:
-
-```powershell
-.\tools\prepare_sd.ps1 -CvrApk "C:\path\CastlevaniaReVamped-switch.apk"
-```
-
 > If Method A doesn't work for you use **Method B** instead. 
 
 ---
