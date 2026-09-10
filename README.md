@@ -108,6 +108,8 @@ sdmc:/switch/cvrevamped_nx/
 
 Touch controls are disabled on Switch — physical gamepad only.
 
+<img width="800" alt="Castlevania_ReVamped_20260910_033700_00" src="https://github.com/user-attachments/assets/59b297c7-b427-434c-a3a3-2da2ae0da454" />
+
 ## Configuration (`config.txt`)
 
 | Key | Default | Notes |
