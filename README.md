@@ -17,22 +17,22 @@ Download **both** release assets from [GitHub Releases](https://github.com/bshur
 
 ---
 
-### Method A - Automatic (Windows prep script)
+Method A - Easy (Automatic prep script, Windows only)
 
-Best if you are on Windows and the script runs successfully.
+Easiest option if you are on Windows and the script runs for you.
 
 1. Extract **`cvrevamped-switch-release.zip`**.
-2. Double-click **`tools/Prepare SD Card.bat`**.
-3. Select **`CastlevaniaReVamped-switch.apk`** when prompted.
-4. Copy the generated **`sd_card/cvrevamped_nx/`** folder to your SD card as **`switch/cvrevamped_nx/`**.
+2. Double-click and run **`tools/Prepare SD Card.bat`**.
+3. Select your **`CastlevaniaReVamped-switch.apk`** when prompted.
+4. Copy the generated **`sd_card/cvrevamped_nx/`** folder to **`switch/cvrevamped_nx/`** on your SD card.
 
 > If Method A doesn't work for you use **Method B** instead. 
 
 ---
 
-### Method B - Manual (any OS)
+Method B - Moderate (Manual procedure, any OS)
 
-1. Extract **`cvrevamped-switch-release.zip`**. You should have a **`cvrevamped_nx/`** folder with at least:
+1. Extract **`cvrevamped-switch-release.zip`**. You should have a **`cvrevamped_nx/`** folder with:
    - `cvrevamped_nx.nro`
    - `config.txt`
    - `gamecontrollerdb.txt`
