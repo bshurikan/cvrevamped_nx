@@ -110,6 +110,17 @@ Touch controls are disabled on Switch - physical gamepad only.
 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/9b590451-1cb2-462d-9925-4a78b147a2bc" />
 
+## NX Options & Cheats In-game: press **L3 + R3**
+* Expanded **Cheats** menu: warps, abilities (All + per-ability), whip, vitals, gold, cards, fill map, bestiary, enemies 1 HP, Unlock Boss Rush
+   * **Warps** split into **Save warps** and **Boss warps** (arenas + alternate entrances where they exist)   
+   * **Progress-aware** - turning cheats off revokes only what the cheat granted; earned progress is kept
+* **Unstick / refresh room** - if there is a scenario where you get stuck/soft locked you can reset the room to get unstuck
+* **Show coords / room** - display room name and coordinates, helpful for debugging
+* **Show FPS** - (display FPS overlay in top center)
+* **VSync** - recommended off
+* **Docked clocks** - enabled docked speeds in handheld
+* **Resolution** - adjust resolution (requires restart)
+
 ## Configuration (`config.txt`)
 
 | Key | Default | Notes |
@@ -120,8 +131,6 @@ Touch controls are disabled on Switch - physical gamepad only.
 | `input_profile` | `1` | YYC / Input 10 (set by prep tool) |
 | `hide_touch` | `1` | Blocks Switch touchscreen from reaching the game |
 | `screen_width/height` | `-1` | Auto (720p handheld, 1080p docked) |
-
-In-game: press **L3 + R3** to open **NX Options**. Toggle FPS / coords / VSync / clocks / resolution, unstick, and warps - changes write to `config.txt`. Resolution needs an app restart.
 
 ## Performance
 
