@@ -114,9 +114,9 @@ Touch controls are disabled on Switch - physical gamepad only.
    * **Progress-aware** - turning cheats off revokes only what the cheat granted; earned progress is kept
 * **Unstick / refresh room** - if there is a scenario where you get stuck/soft locked you can reset the room to get unstuck
 * **Show coords / room** - display room name and coordinates, helpful for debugging
-* **Show FPS** - (display FPS overlay in top center)
+* **Show FPS** - displays FPS overlay in top center
 * **VSync** - recommended off
-* **Docked clocks** - enabled docked speeds in handheld
+* **Docked clocks** - enables docked speeds in handheld
 * **Resolution** - adjust resolution (requires restart)
 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/9b590451-1cb2-462d-9925-4a78b147a2bc" />
