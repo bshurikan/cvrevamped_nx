@@ -108,8 +108,6 @@ sdmc:/switch/cvrevamped_nx/
 
 Touch controls are disabled on Switch - physical gamepad only.
 
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/9b590451-1cb2-462d-9925-4a78b147a2bc" />
-
 ## NX Options & Cheats In-game: press **L3 + R3**
 * Expanded **Cheats** menu: warps, abilities (All + per-ability), whip, vitals, gold, cards, fill map, bestiary, enemies 1 HP, Unlock Boss Rush
    * **Warps** split into **Save warps** and **Boss warps** (arenas + alternate entrances where they exist)   
@@ -120,6 +118,9 @@ Touch controls are disabled on Switch - physical gamepad only.
 * **VSync** - recommended off
 * **Docked clocks** - enabled docked speeds in handheld
 * **Resolution** - adjust resolution (requires restart)
+
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/9b590451-1cb2-462d-9925-4a78b147a2bc" />
+NX Options menu - open with L3 + R3 (stick clicks) - includes some helpful options for debugging.
 
 ## Configuration (`config.txt`)
 
