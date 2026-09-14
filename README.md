@@ -17,7 +17,7 @@ Download **both** release assets from [GitHub Releases](https://github.com/bshur
 
 ---
 
-###Method A - Easy (Automatic prep script, Windows only)
+### Method A - Easy (Automatic prep script, Windows only)
 
 Easiest option if you are on Windows and the script runs for you.
 
@@ -30,7 +30,7 @@ Easiest option if you are on Windows and the script runs for you.
 
 ---
 
-###Method B - Moderate (Manual procedure, any OS)
+### Method B - Moderate (Manual procedure, any OS)
 
 1. Extract **`cvrevamped-switch-release.zip`**. You should have a **`cvrevamped_nx/`** folder with:
    - `cvrevamped_nx.nro`
