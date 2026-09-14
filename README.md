@@ -120,7 +120,8 @@ Touch controls are disabled on Switch - physical gamepad only.
 * **Resolution** - adjust resolution (requires restart)
 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/9b590451-1cb2-462d-9925-4a78b147a2bc" />
-NX Options menu - open with L3 + R3 (stick clicks) - includes some helpful options for debugging.
+
+NX Options menu (open with L3 + R3) - includes some helpful options for debugging.
 
 ## Configuration (`config.txt`)
 
