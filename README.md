@@ -84,12 +84,18 @@ Touch controls are disabled on Switch - physical gamepad only.
 
 | Key | Default | Notes |
 |-----|---------|-------|
-| `vsync` | `0` | Keep off — vsync hurts frame pacing |
-| `show_fps` | `0` | Overlay off by default |
-| `docked_clocks` | `1` | Higher clocks when docked |
-| `input_profile` | `1` | YYC / Input 10 (set by prep tool) |
-| `hide_touch` | `1` | Blocks Switch touchscreen from reaching the game |
-| `screen_width/height` | `-1` | Auto (720p handheld, 1080p docked) |
+| `show_fps` | `1` | On-screen FPS |
+| `vsync` | `1` | Harmless |
+| `hide_touch` | `1` | Hides touch overlay on switch |
+| `docked_clocks` | `1` | Higher GPU in handheld when allowed |
+| `aspect_ratio` | `1` | 0=Original 4:3 (letterboxed) 1=Stretched 16:9 (distorted) |
+| `handheld_docked` | `1` | Force official docked 768 MHz while undocked |
+| `rumble_strength` | `50` | Adjust strength of controller rumble |
+| `menu_bg` / `menu_transparency` | Falling Embers / 3 | NX Options backdrop |
+| `reveal_breakables` | `0` | reveal breakable tiles when in range |
+| `map_unretrieved` | `0` | shows cyan markers on tiles with unretrieved items |
+| `whip_rstick` | `0` | quick toggle whips with right stick or cycle with R3 |
+| `input_profile` | `1` | YYC / Input 10 |
 
 ## Performance
 
