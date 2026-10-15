@@ -5,7 +5,7 @@
 # Castlevania ReVamped
 ### Unofficial Nintendo Switch Homebrew Port
 
-A wrapper/port of the acclaimed [fan game by Lv.4 Games]([url](https://www.reddit.com/r/castlevania/comments/1bap416/castlevania_revamped_new_fan_game_out_now/)) (GameMaker Studio 2 YYC)
+A wrapper/port of the acclaimed [Castlevania ReVamped fan game](https://www.reddit.com/r/castlevania/comments/1bap416/castlevania_revamped_new_fan_game_out_now/) by Lv.4 Games (GameMaker Studio 2 YYC).
 
 ## 💿 Installation
 
