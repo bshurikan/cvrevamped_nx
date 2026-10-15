@@ -6,9 +6,10 @@
 
 Unofficial homebrew port of **Castlevania ReVamped** (Lv.4 Games, GameMaker Studio 2 YYC) for modded Nintendo Switch.
 
-This release includes everything you need to play on Switch: the **homebrew wrapper**, **prep tools**, and a **Switch-patched Android APK** (YYC) with correct controls, no touch overlay, and full-speed performance.
+> [!IMPORTANT]
+> This release includes everything you need to play on Switch: the **homebrew wrapper**, **prep tools**, and a **Switch-patched Android APK** (YYC) with correct controls, no touch overlay, and full-speed performance.
 
-## Installation
+## 💿 Installation
 
 Download **both** release assets from [GitHub Releases](https://github.com/bshurikan/cvrevamped_nx/releases):
 
@@ -45,7 +46,7 @@ Easiest option if you are on Windows and the script runs for you.
 6. Confirm **`config.txt`** has **`input_profile 1`** (shipped default).
 7. Copy the finished **`cvrevamped_nx/`** folder to your SD card as **`switch/cvrevamped_nx/`**.
 
-Final layout:
+### Final layout:
 
 ```
 sdmc:/switch/cvrevamped_nx/
@@ -61,41 +62,11 @@ sdmc:/switch/cvrevamped_nx/
     └── ...
 ```
 
-## What's in the release
-
-| File | What it is |
-|------|------------|
-| `cvrevamped-switch-release.zip` | Wrapper (`cvrevamped_nx.nro`), config, `gamecontrollerdb.txt`, prep tools |
-| `CastlevaniaReVamped-switch.apk` | Switch-patched game (YYC) — B jump, A subweapon, axis-6 map, no touch UI |
-
-The prep tool unpacks the APK into the layout the wrapper expects (`game.apk`, `libyoyo.so`, `assets/`) and sets `input_profile 1` automatically.
-
-### Source
-
-Switch-specific GML patches and the APK build recipe live in the fork:
-
-- [cvrevamped-switch](https://github.com/bshurikan/cvrevamped-switch) (`switch-port` branch)
-
-Base game: [Lv.4 Castlevania ReVamped OSE](https://github.com/LSDonkeyKong/Castlevania-ReVamped-Open-Source-Edition)
-
-## SD card layout
-
-```
-sdmc:/switch/cvrevamped_nx/
-  cvrevamped_nx.nro       ← wrapper (from release)
-  config.txt              ← wrapper
-  sdl2.txt                ← wrapper (YYC gamepad map)
-  gamecontrollerdb.txt    ← wrapper
-  game.apk                ← from Switch APK via prep tool
-  libyoyo.so              ← from Switch APK via prep tool
-  assets/                 ← from Switch APK via prep tool
-```
-
-## Controls
+## 🎮 Controls
 
 | Switch | Action |
 |--------|--------|
-| D-pad / Left stick | Move |
+| **D-pad / Left stick** | Move |
 | **A** | Accept (menus) / **Subweapon** (gameplay) |
 | **B** | Jump (gameplay) / Cancel (menus) |
 | **Y** | Attack |
@@ -105,25 +76,18 @@ sdmc:/switch/cvrevamped_nx/
 | **Minus (−)** | Map |
 | **Plus (+)** | Pause |
 | **L3 + R3** | **NX Options** menu |
+| **Right Stick** | Switch Whips |
+| **R3** | Cycle Whips |
 
 Touch controls are disabled on Switch - physical gamepad only.
 
-## NX Options & Cheats In-game: press **L3 + R3**
-* Expanded **Cheats** menu: warps, abilities (All + per-ability), whip, vitals, gold, cards, fill map, bestiary, enemies 1 HP, Unlock Boss Rush
-   * **Warps** split into **Save warps** and **Boss warps** (arenas + alternate entrances where they exist)   
-   * **Progress-aware** - turning cheats off revokes only what the cheat granted; earned progress is kept
-* **Unstick / refresh room** - if there is a scenario where you get stuck/soft locked you can reset the room to get unstuck
-* **Show coords / room** - display room name and coordinates, helpful for debugging
-* **Show FPS** - displays FPS overlay in top center
-* **VSync** - recommended off
-* **Docked clocks** - enables docked speeds in handheld
-* **Resolution** - adjust resolution (requires restart)
+<br>
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/295871a6-d09e-4530-9f7e-3e09d79c436d" />
 
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/9b590451-1cb2-462d-9925-4a78b147a2bc" />
+> [!TIP]
+> Press **L3 + R3** to open **NX Options**. Toggle FPS / Aspect Ratio / Mods and more (changes written to `config.txt`).
 
-NX Options menu (open with L3 + R3) - includes some helpful options for debugging.
-
-## Configuration (`config.txt`)
+## 🔧 Configuration
 
 | Key | Default | Notes |
 |-----|---------|-------|
@@ -140,16 +104,7 @@ This port uses a **YYC** build at full native speed on Switch — same class of 
 
 ## Building from source
 
-Requires [devkitPro](https://devkitpro.org/). See [BUILD.md](BUILD.md).
-
-```bash
-pacman -S --needed switch-dev switch-sdl2 switch-mesa switch-libdrm_nouveau switch-freetype switch-libpng switch-ffmpeg
-make
-```
-
-Produces `cvrevamped_nx.nro`.
-
-## Credits
+## 👾 Credits
 
 - Wrapper based on the Android GameMaker loader pattern (How Many Dudes / fgsfds, Andy Nguyen) and the [MPO Switch](https://github.com/bshurikan/mpo_nx) project.
 - **Castlevania ReVamped** by Lv.4 Games (fan project). Not affiliated with Lv.4, Nintendo, Konami, or YoYo Games.
@@ -159,6 +114,3 @@ Produces `cvrevamped_nx.nro`.
 ## License
 
 Wrapper source: [MIT](LICENSE). Game assets and `libyoyo.so` are distributed under the community APK release; retain Lv.4 credits per the [OSE license](https://github.com/LSDonkeyKong/Castlevania-ReVamped-Open-Source-Edition).
-
-
-
