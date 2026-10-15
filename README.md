@@ -2,12 +2,10 @@
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/45d72613-d8f7-4922-a78d-533f743aacf0" /> 
 </div>
 
-# Castlevania ReVamped - Nintendo Switch Port
+# Castlevania ReVamped
+### Unofficial Nintendo Switch Homebrew Port
 
-Unofficial homebrew port of **Castlevania ReVamped** (Lv.4 Games, GameMaker Studio 2 YYC) for modded Nintendo Switch.
-
-> [!IMPORTANT]
-> This release includes everything you need to play on Switch: the **homebrew wrapper**, **prep tools**, and a **Switch-patched Android APK** (YYC) with correct controls, no touch overlay, and full-speed performance.
+A wrapper/port of the acclaimed [fan game by Lv.4 Games]([url]https://www.reddit.com/r/castlevania/comments/1bap416/castlevania_revamped_new_fan_game_out_now/) (GameMaker Studio 2 YYC)*
 
 ## 💿 Installation
 
