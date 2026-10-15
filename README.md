@@ -11,16 +11,11 @@ Unofficial homebrew port of **Castlevania ReVamped** (Lv.4 Games, GameMaker Stud
 
 ## 💿 Installation
 
-Download **both** release assets from [GitHub Releases](https://github.com/bshurikan/cvrevamped_nx/releases):
-
+Download **both** release assets from the [Latest Release](https://github.com/bshurikan/cvrevamped_nx/releases):
 1. **`cvrevamped-switch-release.zip`** - wrapper + config + tools  
 2. **`CastlevaniaReVamped-switch.apk`** - Switch-patched YYC build (required; do not substitute a stock Android APK)
 
----
-
 ### Method A - Easy (Automatic prep script, Windows only)
-
-Easiest option if you are on Windows and the script runs for you.
 
 1. Extract **`cvrevamped-switch-release.zip`**.
 2. Double-click and run **`tools/Prepare SD Card.bat`**.
