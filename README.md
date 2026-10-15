@@ -102,8 +102,6 @@ sdmc:/switch/cvrevamped_nx/
 
 This port uses a **YYC** build at full native speed on Switch — same class of performance as the [MPO YYC port](https://github.com/bshurikan/mpo_nx). Expect smooth 60 fps in most areas; heavy rooms may dip slightly.
 
-## Building from source
-
 ## 👾 Credits
 
 - Wrapper based on the Android GameMaker loader pattern (How Many Dudes / fgsfds, Andy Nguyen) and the [MPO Switch](https://github.com/bshurikan/mpo_nx) project.
