@@ -72,7 +72,8 @@ sdmc:/switch/cvrevamped_nx/
 | **Right Stick** | Switch Whips |
 | **R3** | Cycle Whips |
 
-Touch controls are disabled on Switch - physical gamepad only.
+> [!NOTE]
+> Touch controls are disabled on Switch - physical gamepad only.
 
 <br>
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/295871a6-d09e-4530-9f7e-3e09d79c436d" />
