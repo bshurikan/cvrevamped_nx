@@ -79,7 +79,7 @@ sdmc:/switch/cvrevamped_nx/
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/295871a6-d09e-4530-9f7e-3e09d79c436d" />
 
 > [!TIP]
-> Press **L3 + R3** to open **NX Options**. Toggle FPS / Aspect Ratio / Mods and more (changes written to `config.txt`).
+> Press **L3 + R3** to open **NX Options**. Toggle Cheats / Visuals & Performance options / QOL Mods and more (changes written to `config.txt`).
 
 ## 🔧 Configuration
 
