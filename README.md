@@ -1,11 +1,11 @@
 <div align="center">
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/45d72613-d8f7-4922-a78d-533f743aacf0" /> 
-</div>
 
 # Castlevania ReVamped
 ### Unofficial Nintendo Switch Homebrew Port
 
 A wrapper/port of the acclaimed [fan game by Lv.4 Games](https://www.reddit.com/r/castlevania/comments/1bap416/castlevania_revamped_new_fan_game_out_now/) (GameMaker Studio 2 YYC).
+</div>
 
 ## 💿 Installation
 
