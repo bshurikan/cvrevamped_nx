@@ -112,6 +112,7 @@ Special Thanks to:
  - [xan1242/cvrevamped-optimized](https://github.com/xan1242/cvrevamped-optimized) for an early YYC Android starting point (this project moved to a direct OSE source export when that path proved hard to iterate on)
 - Thanks [eboody's Android OSE fork](https://github.com/eboody/Castlevania-ReVamped-Open-Source-Edition) for community Android porting inspiration
 
+<br>
 <table>
   <thead>
     <tr><th colspan="2" align="left">Castlevania ReVamped Original Credits (OSE)</th></tr>
