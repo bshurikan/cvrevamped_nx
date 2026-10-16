@@ -98,7 +98,7 @@ sdmc:/switch/cvrevamped_nx/
 | `whip_rstick` | `0` | quick toggle whips with right stick or cycle with R3 |
 | `input_profile` | `1` | YYC / Input 10 |
 
-## Performance
+## 🌡 Performance
 
 This port uses a **YYC** build at full native speed on Switch — same class of performance as the [MPO YYC port](https://github.com/bshurikan/mpo_nx). Expect smooth 60 fps in most areas; heavy rooms may dip slightly.
 
