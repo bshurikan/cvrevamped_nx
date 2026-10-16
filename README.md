@@ -32,12 +32,12 @@ Download **both** release assets from the [Latest Release](https://github.com/bs
    - `gamecontrollerdb.txt`
    - `sdl2.txt`
 2. Copy **`CastlevaniaReVamped-switch.apk`** into **`cvrevamped_nx/`** and rename to **`game.apk`**.
-4. Open **`game.apk`** with any zip tool (7-Zip, WinRAR, macOS Archive Utility, etc.) and extract:
+3. Open **`game.apk`** with any zip tool (7-Zip, WinRAR, macOS Archive Utility, etc.) and extract:
    - **`lib/arm64-v8a/libyoyo.so`** → place as **`cvrevamped_nx/libyoyo.so`**
    - The entire **`assets/`** folder → place as **`cvrevamped_nx/assets/`**
-5. Copy **`sdl2.txt`** from the release folder into **`cvrevamped_nx/assets/sdl2.txt`** as well (overwrite if the APK already has one). This is required for Switch controls on the YYC build.
-6. Confirm **`config.txt`** has **`input_profile 1`** (shipped default).
-7. Copy the finished **`cvrevamped_nx/`** folder to your SD card as **`switch/cvrevamped_nx/`**.
+4. Copy **`sdl2.txt`** from the release folder into **`cvrevamped_nx/assets/sdl2.txt`** as well (overwrite if the APK already has one). This is required for Switch controls on the YYC build.
+5. Confirm **`config.txt`** has **`input_profile 1`** (shipped default).
+6. Copy the finished **`cvrevamped_nx/`** folder to your SD card as **`switch/cvrevamped_nx/`**.
 
 ### Final layout:
 
@@ -69,8 +69,8 @@ sdmc:/switch/cvrevamped_nx/
 | **Minus (−)** | Map |
 | **Plus (+)** | Pause |
 | **L3 + R3** | **NX Options** menu |
-| **Right Stick** | Switch Whips |
-| **R3** | Cycle Whips |
+| **Right Stick** | Switch Whips (enable in NX Options) |
+| **R3** | Cycle Whips (enable in NX Options) |
 
 > [!NOTE]
 > Touch controls are disabled on Switch - physical gamepad only.
@@ -85,14 +85,13 @@ sdmc:/switch/cvrevamped_nx/
 
 | Key | Default | Notes |
 |-----|---------|-------|
-| `show_fps` | `1` | On-screen FPS |
-| `vsync` | `1` | Harmless |
+| `show_fps` | `0` | On-screen FPS |
+| `vsync` | `0` | Harmless |
 | `hide_touch` | `1` | Hides touch overlay on switch |
 | `docked_clocks` | `1` | Higher GPU in handheld when allowed |
-| `aspect_ratio` | `1` | 0=Original 4:3 (letterboxed) 1=Stretched 16:9 (distorted) |
-| `handheld_docked` | `1` | Force official docked 768 MHz while undocked |
+| `handheld_docked` | `0` | Force official docked 768 MHz while undocked |
 | `rumble_strength` | `50` | Adjust strength of controller rumble |
-| `menu_bg` / `menu_transparency` | Falling Embers / 3 | NX Options backdrop |
+| `menu_bg` / `menu_transparency` | Falling Embers 3 / 30 | NX Options backdrop |
 | `reveal_breakables` | `0` | reveal breakable tiles when in range |
 | `map_unretrieved` | `0` | shows cyan markers on tiles with unretrieved items |
 | `whip_rstick` | `0` | quick toggle whips with right stick or cycle with R3 |
@@ -109,8 +108,8 @@ This port uses a **YYC** build at full native speed on Switch — same class of 
 - Game APK: Android **YYC** export of [Lv.4 OSE](https://github.com/LostDonkeyKong/Castlevania-ReVamped-Open-Source-Edition) with Switch-specific patches ([cvrevamped-switch](https://github.com/bshurikan/cvrevamped-switch))
 
 Special Thanks to: 
- - [xan1242/cvrevamped-optimized](https://github.com/xan1242/cvrevamped-optimized) for an early YYC Android starting point (this project moved to a direct OSE source export when that path proved hard to iterate on)
-- Thanks [eboody's Android OSE fork](https://github.com/eboody/Castlevania-ReVamped-Open-Source-Edition) for community Android porting inspiration
+- [xan1242/cvrevamped-optimized](https://github.com/xan1242/cvrevamped-optimized) for an early YYC Android starting point (this project moved to a direct OSE source export when that path proved hard to iterate on)
+- [eboody's Android OSE fork](https://github.com/eboody/Castlevania-ReVamped-Open-Source-Edition) for community Android porting inspiration
 
 <br>
 <table>
