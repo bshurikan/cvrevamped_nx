@@ -104,15 +104,11 @@ This port uses a **YYC** build at full native speed on Switch — same class of 
 
 ## 👾 Credits
 
-- Wrapper based on the Android GameMaker loader pattern (How Many Dudes / fgsfds, Andy Nguyen) and the [MPO Switch](https://github.com/bshurikan/mpo_nx) project.
-- **Castlevania ReVamped** by Lv.4 Games (fan project). Not affiliated with Lv.4, Nintendo, Konami, or YoYo Games.
-- YYC base: [xan1242/cvrevamped-optimized](https://github.com/xan1242/cvrevamped-optimized).
-
-## Credits
-
 **This Switch port**
 - Wrapper based on the Android GameMaker loader pattern (How Many Dudes / fgsfds, Andy Nguyen) and [MPO Switch](https://github.com/bshurikan/mpo_nx)
-- YYC base: [xan1242/cvrevamped-optimized](https://github.com/xan1242/cvrevamped-optimized)
+- Game APK: Android **YYC** export of [Lv.4 OSE](https://github.com/LostDonkeyKong/Castlevania-ReVamped-Open-Source-Edition) with Switch-specific patches ([cvrevamped-switch](https://github.com/bshurikan/cvrevamped-switch))
+- Thanks [xan1242/cvrevamped-optimized](https://github.com/xan1242/cvrevamped-optimized) for an early YYC Android starting point (we moved to an OSE source export when that path proved hard to iterate on)
+- Thanks [eboody's Android OSE fork](https://github.com/eboody/Castlevania-ReVamped-Open-Source-Edition) for community Android porting inspiration
 - Unofficial — not affiliated with Lv.4 Games, Nintendo, Konami, or YoYo Games
 
 **Castlevania ReVamped** is by [Lv.4 Games](https://github.com/LostDonkeyKong/Castlevania-ReVamped-Open-Source-Edition). Per OSE terms, original credits are retained below.
