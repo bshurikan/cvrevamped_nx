@@ -115,7 +115,7 @@ This port uses a **YYC** build at full native speed on Switch — same class of 
 
 <table>
   <thead>
-    <tr><th colspan="2" align="left">Castlevania ReVamped — original credits (OSE)</th></tr>
+    <tr><th colspan="2" align="left">Castlevania ReVamped - original credits (OSE)</th></tr>
   </thead>
   <tbody>
     <tr><td><strong>Game design &amp; production</strong></td><td>William “Lv.4 WALL” Perez</td></tr>
