@@ -113,11 +113,7 @@ This port uses a **YYC** build at full native speed on Switch — same class of 
 
 **Castlevania ReVamped** is by [Lv.4 Games](https://github.com/LostDonkeyKong/Castlevania-ReVamped-Open-Source-Edition). Per OSE terms, original credits are retained below.
 
-**Castlevania ReVamped - original credits (OSE)**
-
-<br>
-
-| | |
+| **Castlevania ReVamped - original credits (OSE)** |
 |:--|:--|
 | **Game design & production** | William “Lv.4 WALL” Perez |
 | **Flavor text** | Ivan Perez |
