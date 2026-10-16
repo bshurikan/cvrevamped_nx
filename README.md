@@ -113,18 +113,21 @@ This port uses a **YYC** build at full native speed on Switch — same class of 
 
 **Castlevania ReVamped** is by [Lv.4 Games](https://github.com/LostDonkeyKong/Castlevania-ReVamped-Open-Source-Edition). Per OSE terms, original credits are retained below.
 
-| **Castlevania ReVamped - original credits (OSE)** |
-|:--|:--|
-| **Game design & production** | William “Lv.4 WALL” Perez |
-| **Flavor text** | Ivan Perez |
-| **Map & layout** | Lv.4 WALL |
-| **Graphic artists** | Hansungkee · ZeroSaberGreen · Murphmario · Mister Mike · Badbatman3 · SmithyGCN · Lexou Duck · Stardust Nova |
-| **Musicians** | Raspberry Oatshark · Shimoine |
-| **Special thanks** | WarMachine Studios · Mr. P’s Castlevania Realm · The Castlevania Dungeon |
-| **Testing** | Jack Beauchamp · Marilyn Hannan · Max Morrone · Ivan Perez · Robert “subledger” Hyatt · JupiterClimb · Spriven |
-
-_All other assets are derived work of Konami_
-**Presented by Lv.4 GAMES, 2024**
+<table>
+  <thead>
+    <tr><th colspan="2" align="left">Castlevania ReVamped — original credits (OSE)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Game design &amp; production</strong></td><td>William “Lv.4 WALL” Perez</td></tr>
+    <tr><td><strong>Flavor text</strong></td><td>Ivan Perez</td></tr>
+    <tr><td><strong>Map &amp; layout</strong></td><td>Lv.4 WALL</td></tr>
+    <tr><td><strong>Graphic artists</strong></td><td>Hansungkee · ZeroSaberGreen · Murphmario · Mister Mike · Badbatman3 · SmithyGCN · Lexou Duck · Stardust Nova</td></tr>
+    <tr><td><strong>Musicians</strong></td><td>Raspberry Oatshark · Shimoine</td></tr>
+    <tr><td><strong>Special thanks</strong></td><td>WarMachine Studios · Mr. P’s Castlevania Realm · The Castlevania Dungeon</td></tr>
+    <tr><td><strong>Testing</strong></td><td>Jack Beauchamp · Marilyn Hannan · Max Morrone · Ivan Perez · Robert “subledger” Hyatt · JupiterClimb · Spriven</td></tr>
+    <tr><td colspan="2" align="center"><em>All other assets are derived work of Konami</em><br><strong>Presented by Lv.4 GAMES, 2024</strong></td></tr>
+  </tbody>
+</table>
 
 ## License
 
