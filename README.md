@@ -108,6 +108,37 @@ This port uses a **YYC** build at full native speed on Switch — same class of 
 - **Castlevania ReVamped** by Lv.4 Games (fan project). Not affiliated with Lv.4, Nintendo, Konami, or YoYo Games.
 - YYC base: [xan1242/cvrevamped-optimized](https://github.com/xan1242/cvrevamped-optimized).
 
+## Credits
+
+**This Switch port**
+- Wrapper based on the Android GameMaker loader pattern (How Many Dudes / fgsfds, Andy Nguyen) and [MPO Switch](https://github.com/bshurikan/mpo_nx)
+- YYC base: [xan1242/cvrevamped-optimized](https://github.com/xan1242/cvrevamped-optimized)
+- Unofficial — not affiliated with Lv.4 Games, Nintendo, Konami, or YoYo Games
+
+**Castlevania ReVamped** is by [Lv.4 Games](https://github.com/LostDonkeyKong/Castlevania-ReVamped-Open-Source-Edition). Per OSE terms, original credits are retained below.
+
+<details>
+<summary><strong>Castlevania ReVamped — original credits</strong> (OSE)</summary>
+
+<br>
+
+| | |
+|:--|:--|
+| **Game design & production** | William “Lv.4 WALL” Perez |
+| **Flavor text** | Ivan Perez |
+| **Map & layout** | Lv.4 WALL |
+| **Graphic artists** | Hansungkee · ZeroSaberGreen · Murphmario · Mister Mike · Badbatman3 · SmithyGCN · Lexou Duck · Stardust Nova |
+| **Musicians** | Raspberry Oatshark · Shimoine |
+| **Special thanks** | WarMachine Studios · Mr. P’s Castlevania Realm · The Castlevania Dungeon |
+| **Testing** | Jack Beauchamp · Marilyn Hannan · Max Morrone · Ivan Perez · Robert “subledger” Hyatt · JupiterClimb · Spriven |
+
+<p align="center">
+<em>All other assets are derived work of Konami</em><br>
+<strong>Presented by Lv.4 GAMES, 2024</strong>
+</p>
+
+</details>
+
 ## License
 
 Wrapper source: [MIT](LICENSE). Game assets and `libyoyo.so` are distributed under the community APK release; retain Lv.4 credits per the [OSE license](https://github.com/LSDonkeyKong/Castlevania-ReVamped-Open-Source-Edition).
