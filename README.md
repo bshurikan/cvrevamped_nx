@@ -113,8 +113,7 @@ This port uses a **YYC** build at full native speed on Switch — same class of 
 
 **Castlevania ReVamped** is by [Lv.4 Games](https://github.com/LostDonkeyKong/Castlevania-ReVamped-Open-Source-Edition). Per OSE terms, original credits are retained below.
 
-<details>
-<summary><strong>Castlevania ReVamped — original credits</strong> (OSE)</summary>
+**Castlevania ReVamped - original credits (OSE)**
 
 <br>
 
@@ -128,12 +127,8 @@ This port uses a **YYC** build at full native speed on Switch — same class of 
 | **Special thanks** | WarMachine Studios · Mr. P’s Castlevania Realm · The Castlevania Dungeon |
 | **Testing** | Jack Beauchamp · Marilyn Hannan · Max Morrone · Ivan Perez · Robert “subledger” Hyatt · JupiterClimb · Spriven |
 
-<p align="center">
-<em>All other assets are derived work of Konami</em><br>
-<strong>Presented by Lv.4 GAMES, 2024</strong>
-</p>
-
-</details>
+_All other assets are derived work of Konami_
+**Presented by Lv.4 GAMES, 2024**
 
 ## License
 
