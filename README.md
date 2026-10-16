@@ -106,7 +106,6 @@ This port uses a **YYC** build at full native speed on Switch — same class of 
 
 - Wrapper based on the Android GameMaker loader pattern (How Many Dudes / fgsfds, Andy Nguyen) and the [MPO Switch](https://github.com/bshurikan/mpo_nx) project.
 - **Castlevania ReVamped** by Lv.4 Games (fan project). Not affiliated with Lv.4, Nintendo, Konami, or YoYo Games.
-- Switch input patches: B jump, A subweapon, Minus map via axis 6, touch overlay removed.
 - YYC base: [xan1242/cvrevamped-optimized](https://github.com/xan1242/cvrevamped-optimized).
 
 ## License
