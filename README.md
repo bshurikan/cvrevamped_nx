@@ -108,7 +108,7 @@ This port uses a **YYC** build at full native speed on Switch — same class of 
 - Game APK: Android **YYC** export of [Lv.4 OSE](https://github.com/LostDonkeyKong/Castlevania-ReVamped-Open-Source-Edition) with Switch-specific patches ([cvrevamped-switch](https://github.com/bshurikan/cvrevamped-switch))
 
 Special Thanks to: 
-- [xan1242/cvrevamped-optimized](https://github.com/xan1242/cvrevamped-optimized) for an early YYC Android starting point (this project moved to a direct OSE source export when that path proved hard to iterate on)
+- [xan1242/cvrevamped-optimized](https://github.com/xan1242/cvrevamped-optimized) for an early YYC Android reference point
 - [eboody's Android OSE fork](https://github.com/eboody/Castlevania-ReVamped-Open-Source-Edition) for community Android porting inspiration
 
 <br>
